@@ -23,6 +23,6 @@ physics = float(input("Enter Physics marks: "))
 geo = float(input("Enter Geography marks: "))
 chem = float(input("Enter Chemistry marks: "))
 
-# Calculate and display the grade
+
 grade = calculate_grade(maths, physics, geo, chem)
 print(f"Average Grade: {grade}")
